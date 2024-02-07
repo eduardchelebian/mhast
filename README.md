@@ -1,7 +1,7 @@
-# Cell type permutation according to morphology
+# Cell type permutation guided by morphology
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This repository contains the method and demos for the paper **Cell type assignment of deconvolved spatial transcriptomics by learned morphology features**.
+This repository contains the method and demos for the paper **Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics**.
 
 ## TO-DO
 - [ ] Add images once preprint/article is available.
