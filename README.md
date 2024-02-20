@@ -1,5 +1,6 @@
 # Cell type permutation guided by morphology
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Static Badge](https://img.shields.io/badge/demo-mouse_brain-brightgreen)](https://tissuumaps.scilifelab.se/brain_mouse.tmap?path=private/midl)
 
 This repository contains the method and demos for the paper **Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics**.
 
@@ -26,7 +27,7 @@ The function containing the hierarchical permutation method is found in `celltyp
 ```
 A: one-hot encoded matrix (N cells x M spots) indicating the belonging of each cell to a spot
 B: matrix (N cells x K features) indicating morphological features per cell
-X_perm: one-hot encoded matrix (N cells x öL types) indicating the initial assigned cell type per cell
+X_perm: one-hot encoded matrix (N cells x L types) indicating the initial assigned cell type per cell
 ```
 
 to `X_global = hierarchical_permutations(A, X_perm, B)`, where `X_global` will be the rearranged cell types.
