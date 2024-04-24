@@ -1,4 +1,4 @@
-# Cell type permutation guided by morphology
+# MHAST: Morphology-guided Hierarchical cell type Assignment of Spatial Transcriptomics
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Static Badge](https://img.shields.io/badge/demo-mouse_brain-brightgreen)](https://tissuumaps.scilifelab.se/brain_mouse.tmap?path=private/midl)
 
