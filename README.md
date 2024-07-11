@@ -4,10 +4,9 @@
 
 This repository contains the method and demos for the paper **Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics**.
 
-## TO-DO
-- [ ] Add images once preprint/article is available.
-- [ ] Add citation links once preprint/article is available.
-      
+![](https://github.com/eduardchelebian/depicter/blob/main/midl_poster.jpg)
+
+
 ## Installation
 
 We recommend creating a conda environment for running and testing the method pipeline:
@@ -38,4 +37,16 @@ to `X_global = hierarchical_permutations(A, X_perm, B)`, where `X_global` will b
 * `simulated_data.ipynb` shows how the simulated Visium data was generated
 * `synthetic_data.ipynb` shows how Visium data was synthesized from Xenium data
 * `real_data.ipynb` shows a real use case using the Tangram cell type deconvolution method `run_tangram.py`
+
+## Reference
+Chelebian, E., Avenel, C., Leon, J., Hon, C. C., & Wahlby, C. Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics. In Medical Imaging with Deep Learning. [https://openreview.net/forum?id=QfYXJUmIit](https://openreview.net/forum?id=QfYXJUmIit)
+```
+@inproceedings{chelebian2024learned,
+  title={Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics},
+  author={Chelebian, Eduard and Avenel, Christophe and Leon, Julio and Hon, Chung-Chau and Wahlby, Carolina},
+  booktitle={Medical Imaging with Deep Learning, 2024, Paris, France},
+  year={2024},
+}
+```
+
 
