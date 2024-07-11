@@ -4,7 +4,7 @@
 
 This repository contains the method and demos for the paper **Learned morphological features guide cell type assignment of deconvolved spatial transcriptomics**.
 
-![](https://github.com/eduardchelebian/depicter/blob/main/midl_poster.jpg)
+![](https://github.com/eduardchelebian/mhast/blob/main/midl_poster.jpg)
 
 
 ## Installation
